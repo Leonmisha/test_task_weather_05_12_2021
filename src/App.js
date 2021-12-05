@@ -1,12 +1,15 @@
 import { Provider } from 'react-redux';
 
 import store from './init/store.js';
-import Main from './components/Main.js';
+import Main from './components/Main';
+import Bootstrap from './components/bootstrap/index.js';
 
 const App = () => {
     return (
         <Provider store = { store }>
-            <Main />
+            <Bootstrap>
+                <Main />
+            </Bootstrap>
         </Provider>
     );
 }

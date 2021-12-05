@@ -1,18 +1,11 @@
 import { combineReducers } from 'redux';
-import { createActions, handleActions } from 'redux-actions';
-import * as R from 'ramda';
 
-export const { initializeApp } = createActions({
-    initializeApp: () => void 0
-})
-
+import bootstrap from '../components/bootstrap/store/reducer'
+import geolocation from '../components/geolocation/store/reducer'
+import weather from '../components/weather/store/reducer'
 
 export const rootReducer = combineReducers({
-  default: handleActions({
-    [initializeApp]: (state) => R.set(
-        R.lensProp('init'),
-        true,
-        state
-    )
-  }, {init: false})
+  bootstrap,
+  geolocation,
+  weather
 });
