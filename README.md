@@ -1,6 +1,6 @@
 # Weather forecast in realtime using React + Redux
 
-_ This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+_This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)._
 
 ## How to run the project
 
