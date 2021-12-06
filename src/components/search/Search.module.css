@@ -1,0 +1,93 @@
+.container {
+    min-height: calc( 100vh - 20px);
+    padding: 10px;
+}
+.title {
+    text-align: center;
+}
+.search {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.searchInput {
+    max-width: 200px;
+}
+
+.searchInput, .searchButton {
+    font-size: 1.2em;
+}
+
+.searchButton {
+    cursor: pointer;
+}
+
+.list {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px auto auto;
+    max-width: 700px;   
+}
+
+.listItem {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.listItem:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.itemRow {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+
+.itemRow > * {
+    padding-right: 5px;
+}
+
+.itemWeatherIcon {
+    width: 50px;
+    height: 50px;
+    padding: 0 5px;
+}
+
+.itemName {
+    color: #e96e50;
+    font-weight: 700;
+}
+
+.itemDescription {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.itemTemparature {
+    color: white;
+    background-color: #4e4d4a;
+    border-radius: 5px;
+    margin-right: 3px;
+}
+
+.itemCoords {
+    color: #e96e50;
+}
+
+.list_nothing {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    width: 400px;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+    background-color: orange;
+}
