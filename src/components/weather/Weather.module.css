@@ -1,0 +1,24 @@
+.container {
+    position: relative;
+    padding: 10px;
+    width: calc(100vw - 20px);
+    height: calc(100vh - 20px);
+    background-repeat:no-repeat;
+    background-position: center center;
+    font-size: 1.2rem;
+}
+
+.sign {
+    margin: 10px;
+    text-align: center;
+}
+.bottomPanel {
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+.slider, .customMode {
+    cursor: pointer;
+}
